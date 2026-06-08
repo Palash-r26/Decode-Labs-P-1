@@ -1,4 +1,3 @@
-/* CSS Variables */
 :root {
     --color-mocha: #A5856F;
     --color-blue: #A0D4E0;
@@ -10,7 +9,6 @@
     --font-body: 'Roboto', sans-serif;
 }
 
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -67,7 +65,6 @@ ul {
     font-size: 2.2rem;
 }
 
-/* Header & Navigation */
 .header {
     background-color: #ffffff;
     padding: 1rem 2rem;
@@ -147,7 +144,6 @@ ul {
     color: #ffffff;
 }
 
-/* Main Content */
 .main-content {
     flex: 1;
     display: flex;
@@ -158,7 +154,6 @@ section {
     padding: 5rem 2rem;
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
@@ -212,7 +207,6 @@ section {
     transform: translateY(-2px);
 }
 
-/* About Section */
 .about {
     background-color: var(--color-grey);
 }
@@ -229,7 +223,6 @@ section {
     color: var(--color-text-light);
 }
 
-/* Skills & Education */
 .skills-edu {
     background-color: #ffffff;
 }
@@ -262,7 +255,6 @@ section {
     color: var(--color-text);
 }
 
-/* Education Details */
 .education-card h4 {
     font-size: 1.2rem;
     color: var(--color-text);
@@ -283,7 +275,6 @@ section {
     border-bottom: none;
 }
 
-/* Skills Single Box */
 .skill-list-single {
     display: flex;
     flex-wrap: wrap;
@@ -299,7 +290,6 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Projects Section */
 .projects {
     background-color: #ffffff;
 }
@@ -358,7 +348,6 @@ section {
     font-weight: 500;
 }
 
-/* Contact Section */
 .contact {
     background-color: var(--color-grey);
     text-align: center;
@@ -405,7 +394,6 @@ section {
     background-color: #005582;
 }
 
-/* Footer (Minimal) */
 .footer {
     background-color: #ffffff;
     color: var(--color-text-light);
@@ -415,9 +403,6 @@ section {
     border-top: 1px solid #e0e0e0;
 }
 
-/* Media Queries */
-
-/* Tablet (768px and up) */
 @media (min-width: 768px) {
     section {
         padding: 6rem 3rem;
@@ -436,7 +421,6 @@ section {
     }
 }
 
-/* Desktop (1024px and up) */
 @media (min-width: 1024px) {
     .hamburger {
         display: none;
